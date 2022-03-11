@@ -5,10 +5,10 @@ Primer repo de HMIS :D
 graph LR
     A[Existe en Almería] -->|desde 2000| B((Ruth))
     C[Java] -->|Primer lenguaje| B
+    F[Estudiante de HMIS2022] -->|UAL| B
     E[Desde el colegio] --> |Interés en informática| B
-    B -->|UAL| F[Estudiante de HMIS2022]
-    B -->|Intensificación| M[Mención de Ingeniería del Software]
-    B -->|Interés en| G(Creación de videojuegos)
+    M[Mención de Ingeniería del Software] --> |Intensificación| B
+    G[Creación de videojuegos] --> |Hobby| B
     style B fill:#E54A50
     style A fill:#93AE55
     style C fill:#93AE55
